@@ -134,7 +134,7 @@ def distress():
    s = urllib2.urlopen(url).read()
    c = json.loads(s)
    x = c['results'][0]['formatted_address']
-   droid.smsSend('9444440690','Urgent: I am in distress. Location ' + x)
+   droid.smsSend('XXX','Urgent: I am in distress. Location ' + x)
 
 
 def morals():
@@ -217,7 +217,7 @@ def tellKill():
 def tellKill1():
    droid.ttsSpeak("I am going to call the police to murderer!")
 
-contacts={'home':'04425530214', 'mother':'9444440690', 'father':'9444111615', 'vishwas':'9677055570'}
+contacts={'home':'XXX', 'mother':'XXX', 'father':'XXX', 'vishwas':'XXXXX'}
 
 apps = {'settings':'com.android.settings.Settings', 'whatsApp':'com.whatsapp.Main',
       'clock':'com.sec.android.app.clockpackage.ClockPackage',
